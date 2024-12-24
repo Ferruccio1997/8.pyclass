@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "8-pyclass"
+version = "0.1.0"
+description = ""
+authors = ["ferruccio_ribeiro <ferruccioribeiro@outlook.com>"]
+readme = "README.md"
+packages = [{include = "8"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandera = "^0.22.0"
+fastparquet = "^2024.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
